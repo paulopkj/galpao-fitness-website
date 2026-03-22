@@ -64,7 +64,7 @@ Estudante focado em desenvolvimento web.
 
 🔗 GitHub: https://github.com/paulopkj
 
-🔗 LinkedIn: https://www.linkedin.com/feed/
+🔗 LinkedIn: https://www.linkedin.com/in/fullstack-paulo-ricardo
 
 ---
 
