@@ -59,8 +59,7 @@ Durante o desenvolvimento deste projeto, foram aplicados conhecimentos como:
 
 **Paulo Ricardo**
 
-Desenvolvedor Fullstack Junior 🚀  
-Estudante focado em desenvolvimento web.
+Desenvolvedor FullStack em Constante evolução 🚀
 
 🔗 GitHub: https://github.com/paulopkj
 
