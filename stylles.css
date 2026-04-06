@@ -68,7 +68,6 @@ body {
 }
 
 .nav-nomes a:hover {
-  text-decoration: underline var(--orange);
   font-size: 1.8rem;
   font-weight: 900;
 }
@@ -354,6 +353,70 @@ body {
 }
 
 
+/* ===== NOSSOS PLANOS ===== */
+
+.planos {
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 1rem;
+}
+
+.planos .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-bottom: 100px;
+}
+
+
+.planos .box-container .box {
+  background: var(--black);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: var(--border);
+  box-shadow: 0 0 15px rgba(240, 94, 4, 0.923);
+  text-align: center;
+}
+
+.planos .box-container .box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(240, 94, 4, 1);
+}
+
+
+.planos .box-container .box h3 {
+  font-size: 1.6rem;
+  color: var(--orange);
+  margin-bottom: 0.5rem;
+}
+
+.planos .box-container .box p {
+  font-size: 1rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.matriculse-ja {
+  background-color: var(--orange);
+  color: var(--black);
+  padding: 0.5rem 0.9rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  text-transform: uppercase;
+  border: none;
+}
+
+.matriculse-ja:hover {
+  background-color: #da8b46f0;
+  color: var(--black);
+  transform: scale(1.05);
+}
+
+
 /* ===== HORÁRIOS ===== */
 
 .horarios {
@@ -541,6 +604,7 @@ body {
 
 .contact-form button:hover {
   background-color: #ff9933;
+  transform: scale(1.05);
 }
 
 /* ===== FOOTER ===== */
